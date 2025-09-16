@@ -5,55 +5,106 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        body{
+        html, body{
             height: 100%;
             margin: 0%;
-            display: grid;
-            grid-template-columns: 1fr 2fr 1fr;
-            grid-template-rows: 1fr 3fr 1fr;
-            gap: 10px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            gap: 1%;
+            color: white;
+        }
+        main{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            height: 80%;
+            width: 100%;
+            gap: 1%;
         }
         .headerh{
-            
             background-color: #CD5C5C;
+            height: 10%;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
         }
 
         nav{
-            
             background-color: #CD5C5C;
+            width: 10%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
         }
         section{
-           
+            width: 80%;
+            height: 100%;
             background-color: #CD5C5C;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 1%;
         }
         .headers{
+            height: 10%;
+            width: 95%;
             background-color: #BDB76B;
+            display: flex;
+            justify-content: center;
+            align-items: center;
         }
         article{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 70%;
+            width: 95%;
             background-color: #BDB76B;
         }
         .footers{
+            height: 10%;
+            width: 95%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
             background-color: #BDB76B;
         }
         aside{
+            width: 10%;
+            height: 100%;
             background-color: #CD5C5C;
+            display: flex;
+            justify-content: center;
+            align-items: center;
         }
         .footerf{
-            
+            height: 10%;
+            width: 100%;
             background-color: #CD5C5C;
+            display: flex;
+            justify-content: center;
+            align-items: center;
         }
     </style>
 </head>
 <body>
-    <header class="headerh">Header</header>
-    <nav>Nav</nav>
-    <section>
-        Section
-        <header class="headers">Header</header>
-        <article>Article</article>
-        <footer class="footers">Footer</footer>
-    </section>
-    <aside>Aside</aside>
-    <footer class="footerf">Footer</footer>
+    <header class="headerh">&ltHeader&gt</header>
+    <main>
+        <nav>&ltNav&gt</nav>
+        <section>
+            &ltSection&gt
+            <header class="headers">&ltHeader&gt</header>
+            <article>&ltArticle&gt</article>
+            <footer class="footers">&ltFooter&gt</footer>
+        </section>
+        <aside>&ltAside&gt</aside>
+    </main>
+    <footer class="footerf">&ltFooter&gt</footer>
 </body>
 </html>
