@@ -1,0 +1,94 @@
+html, body {
+    height: 100%;
+    margin: 0%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 1%;
+    color: white;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 80%;
+    width: 100%;
+    gap: 1%;
+}
+
+.headerh {
+    background-color: #CD5C5C;
+    height: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav {
+    background-color: #CD5C5C;
+    width: 10%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section {
+    width: 80%;
+    height: 100%;
+    background-color: #CD5C5C;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1%;
+}
+
+.headers {
+    height: 10%;
+    width: 95%;
+    background-color: #BDB76B;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+article {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70%;
+    width: 95%;
+    background-color: #BDB76B;
+}
+
+.footers {
+    height: 10%;
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #BDB76B;
+}
+
+aside {
+    width: 10%;
+    height: 100%;
+    background-color: #CD5C5C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footerf {
+    height: 10%;
+    width: 100%;
+    background-color: #CD5C5C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
